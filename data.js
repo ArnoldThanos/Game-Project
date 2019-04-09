@@ -108,15 +108,15 @@ const game = document.getElementById('timeLine');
 const grid = document.createElement('section');
 
 grid.setAttribute('class', 'grid');
-
 // append the grid section to the div
 game.appendChild(grid);
-
 // put random cards from our array of cards
 let datas = [];
+let gamePoints = 0;
+
 function randomCards(){
     let newArr = Array.from(gameCards);      
-    while(datas.length < 8){
+    while(datas.length < 5){
         let index = Math.floor(Math.random() * newArr.length);
         const card = document.createElement('div')
         card.classList.add('card');
@@ -131,53 +131,90 @@ function randomCards(){
     return datas;
 }
 
-console.log(randomCards());
+
 
 // add event when you click on a image
 
 let yearsTimeList = [];
+let count = 0;
+let clicked;
 
 grid.addEventListener('click', function(event){
-    let clicked = event.target; 
+    clicked = event.target; 
     if(clicked.nodeName === 'SECTION'){
         return;
-    }        
-    yearsTimeList.push((parseInt(clicked.getAttribute('data-year'),10)));           
+    }
+    
+    // if(clicked.classList.contains('selected')){
+    //     clicked.classList.remove('selected'); 
+    //     clicked.classList.add('card');
+    //     grid.appendChild(clicked);            
+    // }
+           
+    let year = parseInt(clicked.getAttribute('data-year'),10);
+    yearsTimeList.push(year);           
     clicked.classList.add('selected');  
     let div1st = document.getElementById('shuffle');    
     div1st.appendChild(clicked);  
-    clicked.innerHTML = clicked.getAttribute('data-year'),10;   
-    console.log(yearsTimeList);
+    clicked.innerHTML = clicked.getAttribute('data-year');      
+    points(year, count);
+    count += 1;    
     winGame(yearsTimeList);
+    
+}); 
+console.log(clicked);
 
-});
-// console.log(randomCards());
-console.log(datas.sort())
+function points(number, count){
+    let tablePoints = document.getElementById('points')
+    if(datas.sort()[count] === number){
+        gamePoints +=10;
+        
+        console.log(gamePoints);
+    }else {
+        clicked.classList.add('selected2');
+        if(gamePoints !== 0){
+            gamePoints -=10;
+        }
+    }
+    tablePoints.innerHTML = gamePoints;
+
+}
+
 
 // funtion to check if you win
+document.getElementById('game-over').style.visibility = 'hidden';
+document.getElementById('win').style.visibility = 'hidden';
 
 function winGame(clichedTimeList){
     let b = Array.from(datas);
     let a = Array.from(clichedTimeList);
-    let count;
+    let count = 0;
     if(a.length === b.length){
         for(let i = 0; i < a.length; i +=1 ){
             if(a[i] === b[i]){
-                count = 0;
+                count += 1;
             }else{
-                count +=1;
+                count =0;
             }
         }    
-    if(count === 0){
+    if(count === datas.length){
         console.log('You Win!');
+        document.getElementById('win').style.visibility = 'visible';
     }else {
         console.log('You lost!');
+        document.getElementById('game-over').style.visibility = 'visible';
     }    
-    }
+}
+}
+
+window.onload = function() {
+    document.getElementById("start-button").onclick = function() {        
+        randomCards();    
+        console.log(datas.sort());
+    };
 }
 
 
-randomCards();
 
 
 

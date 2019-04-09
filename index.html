@@ -6,15 +6,23 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   
 </head>
-<body>
+<body>  
   <div id = "container">
     <div id = "shuffle"></div>
+    <img id = "game-over" src="./images/game-over.png" alt="Game Over" width="700" height="300"> 
+    <img id = "win" src="./images/win.jpeg" alt="Game Over" width="700" height="300"> 
+
     <aside>
-      <h2>Points!</h2>
+      <!-- <h2>Points!</h2> -->
+      <img src="./images/score.png" alt="Score" width="140" height="120"> 
+      <ul>
+        <li id = "points"> 0 </li>
+      </ul>
+      <button id = "start-button" type="button">PLAY</button>
+      <input id = "try-again" type="button" value="Try again!" onClick="window.location.reload()">
     </aside>
   </div>
   <div id = "timeLine"></div>
-  
   <script src ="data.js"></script>
 </body>
 </html>
