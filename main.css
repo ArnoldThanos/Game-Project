@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin : 20px 0;
+    background: #36b868;   
+    background-image: url('images/games-timeline-poster.jpg')
+}
+
+aside{
+    display: flex;
+    border : 2px solid green;
+    justify-content: flex-end;
+    width: 20%;
+    height: 350px;
+    
+}
+
+aside > h2{
+    
+}
+
+.grid{
+    max-width: 950px;
+    margin : 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{
+    margin: 5px;
+    background-color:blue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    width: 200px;
+}
+
+#container{
+    display: flex;
+}
+
+#shuffle{
+    display: flex;
+    height: 350px;
+    width: 80%;;
+    border : 2px solid red;
+    flex-wrap: wrap;
+    /* text-align: center;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding-left: 5px; */
+}
+
+#shuffle > div{    
+    border : 4px solid white;
+    height: 160px;
+    width: 180px;    
+}
+
+.grid > div {
+    width: 100px;
+    height: 100px;
+    border : 5px solid rebeccapurple;
+
+}
+
+.selected {
+    border : 4px solid blue;
+    position : relative;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* .column{
+    border : 2px solid blue;
+
+} */
+
+/* .second {
+
+    border : 2px solid orange;
+} */
