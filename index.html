@@ -13,13 +13,16 @@
     <img id = "win" src="./images/win.jpeg" alt="Game Over" width="700" height="300"> 
 
     <aside>
-      <!-- <h2>Points!</h2> -->
-      <img src="./images/score.png" alt="Score" width="140" height="120"> 
+      <div id= "scoreImage">
+        <img src="./images/score.png" alt="Score" width="140" height="120"> 
+      </div>
       <ul>
-        <li id = "points"> 0 </li>
+        <li id = "points">0</li>
       </ul>
-      <button id = "start-button" type="button">PLAY</button>
-      <input id = "try-again" type="button" value="Try again!" onclick="window.location.reload()">
+      <section id="buttonStart-tryAgain">
+        <button id = "start-button" type="button">PLAY</button>
+        <input id = "try-again" type="button" value="Try again!" onclick="window.location.reload()">
+      </section>
       <img id = "levelImage" src="./images/level.png" alt="level" width="100" height="50"> 
       <section id= "levelButtons">
         <button id = "level1" class = "level" type="button">1</button>
@@ -27,7 +30,8 @@
         <button id = "level3" class = "level" type="button">3</button>
         <button id = "level4" class = "level" type="button">4</button>
       </section>  
-      </aside>
+
+    </aside>
   </div>
   <div id = "timeLine"></div>
   <script src ="data.js"></script>

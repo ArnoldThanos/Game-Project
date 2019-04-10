@@ -1,179 +1,295 @@
 const gameCards =[
 {
-    name : 'nintendoSwitch',
-    image : './images/nintendoSwitch.jpg',
-    year : 2017,
-    month : 3
+    name : 'TheOregonTrial',
+    image : './images2/theOregonTrail.jpg',
+    year : 1971,
+    
 
 },
 {
-    name : 'PS4',
-    image : './images/ps4.jpeg',
-    year : 2013,
-    month : 11
-},
-{
-    name : 'xBox360',
-    image : './images/xBox360.jpeg',
-    year : 2005,
-    month : 11
-},
-{
-    name : 'tekken2',
-    image : './images/Tekken-2.jpg',
-    year : 1995,
-    month : 8
+    name : 'pong',
+    image : './images2/pong.jpg',
+    year : 1972, 
 
 },
 {
-    name : 'lastOfUs',
-    image : './images/lastOfUs.jpeg',
-    year : 2013,
-    month : 5
+    name : 'SpaceRace',
+    image : './images2/spaceRace.jpg',
+    year : 1973, 
 
 },
 {
-    name : 'legendOfZeldaBOTW',
-    image : './images/legendOfZeldaBOTW.jpeg',
-    year : 2017,
-    month : 3
+    name : 'MazeWar',
+    image : './images2/mazeWar.jpg',
+    year : 1974, 
 
 },
 {
-    name : 'needForSpeed2Undergrpund',
-    image : './images/needForSpeed2Underground.jpg',
-    year : 2003,
-    month : 11
+    name : 'GunFight',
+    image : './images2/gunfight.jpg',
+    year : 1975, 
 
 },
 {
-    name : 'redDeadRedemption',
-    image : './images/redDeadRedemtion.jpg',
-    year : 2010,
-    month : 5
+    name : 'Breakout',
+    image : './images2/breakout.jpg',
+    year : 1976, 
 
 },
 {
-    name : 'residentEvil3',
-    image : './images/residentEvil3.jpg',
-    year : 1999,
-    month : 9
+    name : 'Zork',
+    image : './images2/zork.jpg',
+    year : 1977, 
 
 },
 {
-    name : 'superMarioWorld',
-    image : './images/superMarioWorld.jpeg',
-    year : 1990,
-    month : 11
+    name : 'SpaceInvaders',
+    image : './images2/spaceInvaders.jpg',
+    year : 1978, 
 
 },
 {
-    name : 'uncharted',
-    image : './images/uncharted.jpg',
-    year : 2007,
-    month :11
+    name : 'Asteroids',
+    image : './images2/asteroids.jpg',
+    year : 1979, 
 
 },
 {
-    name : 'CastelVaniaLegacyofDarkness',
-    image : './images/castelvaniaLegacyofDarkness.jpg',
-    year : 1999,
-    month : 11
+    name : 'Pac-man',
+    image : './images2/pacman.jpeg',
+    year : 1980, 
 
 },
 {
-    name : 'CastelVaniaLordsofShadow',
-    image : './images/castlevanialordsofshadow.jpg',
-    year : 2010,
-    month : 10
+    name : 'DonkeyKong',
+    image : './images2/donkeykong.jpg',
+    year : 1981, 
 
 },
 {
-    name : 'DevilMayCry2',
-    image : './images/devilMayCry2.jpg',
-    year : 2003,
-    month : 1
+    name : 'Pitfall',
+    image : './images2/pitfall.jpg',
+    year : 1982, 
+
+},
+{
+    name : 'Dragons lair',
+    image : './images2/dragonsLiar.jpg',
+    year : 1983, 
+
+},
+{
+    name : 'Tetris',
+    image : './images2/tetris.jpg',
+    year : 1984, 
+
+},
+{
+    name : 'SuperMarioBros',
+    image : './images2/supermariobros.jpg',
+    year : 1985, 
+
+},
+{
+    name : 'TheLegendOfZelda',
+    image : './images2/legendofzelda.jpg',
+    year : 1986, 
+
+},
+{
+    name : 'FinalFantasy',
+    image : './images2/finalfantasy.jpg',
+    year : 1987, 
+
+},
+{
+    name : 'SuperMarioBros3',
+    image : './images2/supermariobros3.jpg',
+    year : 1988, 
+
+},
+{
+    name : 'SimCity',
+    image : './images2/simcity.jpg',
+    year : 1989, 
+
+},
+{
+    name : 'SuperMarioWorld',
+    image : './images2/supermarioworld.jpeg',
+    year : 1990, 
+
+},
+{
+    name : 'SonicTheHedgehog',
+    image : './images2/sonic.jpg',
+    year : 1991, 
+
+},
+{
+    name : 'MortalKombat',
+    image : './images2/mortalkombat.png',
+    year : 1992, 
+
+},
+{
+    name : 'DOOM',
+    image : './images2/doom.jpg',
+    year : 1993, 
+
+},
+{
+    name : 'DonkeyKongCountry',
+    image : './images2/dkcountry.png.jpg',
+    year : 1994, 
+
+},
+{
+    name : 'ChronoTrigger',
+    image : './images2/chronotrigger.png',
+    year : 1995, 
+
+},
+{
+    name : 'PokemonRedandBlue',
+    image : './images2/pokemon.png',
+    year : 1996, 
+
+},
+{
+    name : 'FinalFantasy7',
+    image : './images2/finalFantasy7.jpg',
+    year : 1997, 
+
+},
+{
+    name : 'TheLegendOfZelda:OcarinaOfTime',
+    image : './images2/zeldaOcarinaOfTime.jpg',
+    year : 1998, 
+
+},
+{
+    name : 'SuperSmashBros',
+    image : './images2/superSmashBros.jpg',
+    year : 1999, 
+
+},
+{
+    name : 'TheSims',
+    image : './images2/thesims.jpg',
+    year : 2000, 
+
+},
+{
+    name : 'HALO',
+    image : './images2/halo.jpg',
+    year : 2001, 
 
 },
 {
     name : 'MetroidPrime',
-    image : './images/metroidPrime.jpeg',
-    year : 2002,
-    month : 11
+    image : './images2/metroidprime.jpg',
+    year : 2002, 
 
 },
 {
-    name : 'raymanLegends',
-    image : './images/raymanLegends.jpg',
-    year : 2013,
-    month : 8
+    name : 'StarWars:KnightsofTheOldRepublic',
+    image : './images2/starWarsKnightsofTheOldRepublic.jpg',
+    year : 2003, 
 
 },
 {
-    name : 'ShadowOfTheColossus',
-    image : './images/shadowOfTheColossus.jpg',
-    year : 2005,
-    month : 10
+    name : 'Half-life2',
+    image : './images2/halflife2.jpg',
+    year : 2004, 
 
 },
 {
-    name : 'Atari',
-    image : './images/atari.jpg',
-    year : 1977,
-    month : 9
+    name : 'ResidentEvil4',
+    image : './images2/residentevil4.jpg',
+    year : 2005, 
 
 },
 {
-    name : 'GameCube',
-    image : './images/gameCube.jpeg',
-    year : 2001,
-    month : 9
+    name : 'GearsOfWar',
+    image : './images2/gearsOfWar.jpg',
+    year : 2006, 
 
 },
 {
-    name : 'PS1',
-    image : './images/ps1.png',
-    year : 1994,
-    month : 12
+    name : 'BioShock',
+    image : './images2/bioshock.png',
+    year : 2007, 
 
 },
 {
-    name : 'PS2',
-    image : './images/ps2.png',
-    year : 2000,
-    month : 3
+    name : 'Fallout3',
+    image : './images2/fallout3.jpg',
+    year : 2008, 
 
 },
 {
-    name : 'PS3',
-    image : './images/ps3.jpeg',
-    year : 2006,
-    month : 11
+    name : 'Uncharted2:AmongThieves',
+    image : './images2/uncharted2.jpg',
+    year : 2009, 
 
 },
 {
-    name : 'NintendoWii',
-    image : './images/nitendoWii.jpg',
-    year : 2006,
-    month : 9
+    name : 'RedDeadRedemtion',
+    image : './images2/reddeadredemption.jpg',
+    year : 2010, 
 
 },
 {
-    name : 'NintendoWiiU',
-    image : './images/wiiU.jpg',
-    year : 2006,
-    month : 9
+    name : 'TheelderScrollsV:Skyrim',
+    image : './images2/elderscrolls.png',
+    year : 2011, 
 
 },
 {
-    name : 'xboxOne',
-    image : './images/xboxOne.jpg',
-    year : 2013,
-    month : 11
+    name : 'Journey',
+    image : './images2/journey.png',
+    year : 2012, 
+
+},
+{
+    name : 'GrandThefAutoV',
+    image : './images2/grandtheft5.jpeg',
+    year : 2013, 
+
+},
+{
+    name : 'BAyonetta2',
+    image : './images2/bayonetta2.png',
+    year : 2014, 
+
+},
+{
+    name : 'Bloodborne',
+    image : './images2/bloodborne.png',
+    year : 2015, 
+
+},
+{
+    name : 'Overwatch',
+    image : './images2/Overwatch.jpg',
+    year : 2016, 
+
+},
+{
+    name : 'TheLegendOfZelda:BreathOfTheWild',
+    image : './images2/breatheofthewild.png',
+    year : 2017, 
+
+},
+{
+    name : 'IntoTheBreach',
+    image : './images2/itb-large-final.jpg',
+    year : 2018, 
 
 }
-
 ] 
+console.log(gameCards.length)
 
 
 // take the div
@@ -200,7 +316,7 @@ function randomCards(){
         const card = document.createElement('div')
         card.classList.add('card');
         card.dataset.name = newArr[index].name;
-        card.dataset.year = newArr[index].year
+        card.dataset.year = newArr[index].year;
         card.style.backgroundImage = `url(${newArr[index].image})`;
         grid.appendChild(card);          
         datas.push(newArr[index].year);
@@ -221,18 +337,13 @@ grid.addEventListener('click', function(event){
     clicked = event.target; 
     if(clicked.nodeName === 'SECTION'){
         return;
-    }    
-    // if(clicked.classList.contains('selected')){
-    //     clicked.classList.remove('selected'); 
-    //     clicked.classList.add('card');
-    //     grid.appendChild(clicked);            
-    // }           
+    }                
     let year = parseInt(clicked.getAttribute('data-year'),10);
     yearsTimeList.push(year);           
     clicked.classList.add('selected');  
     let div1st = document.getElementById('shuffle');    
     div1st.appendChild(clicked);  
-    clicked.innerHTML = clicked.getAttribute('data-year');      
+    clicked.innerHTML = "<span>" + clicked.getAttribute('data-year') + "</span>";      
     points(year, count);
     count += 1;    
     winGame(yearsTimeList);
@@ -295,56 +406,17 @@ function levelSelected(){
                     buttonSelected[i].classList.remove('levelSelected');
                 }
             }
-            difficultyLevel = index <= 0 ? 3 : (index + 1) * 2;
+            difficultyLevel = index <= 0 ? 4 : (index + 2) * 2;
         })
     })
 }
 
-
-levelSelected();
-
-// let level1 = document.getElementById("level1");
-// level1.addEventListener('click', function(){    
-//     level1.classList.add('levelSelected');
-//     level2.classList.remove('levelSelected');
-//     level3.classList.remove('levelSelected');
-//     level4.classList.remove('levelSelected');
-//     difficultyLevel = 4;
-// })
-
-// let level2 = document.getElementById("level2");
-// level2.addEventListener('click', function(){   
-//     level2.classList.add('levelSelected');    
-//     level1.classList.remove('levelSelected');
-//     level3.classList.remove('levelSelected');
-//     level4.classList.remove('levelSelected');
-//     difficultyLevel = 6;
-// })
-
-// let level3 = document.getElementById("level3");
-// level3.addEventListener('click', function(){
-//     level3.classList.add('levelSelected');
-//     level1.classList.remove('levelSelected');
-//     level2.classList.remove('levelSelected');
-//     level4.classList.remove('levelSelected');
-//     difficultyLevel = 8;
-// })
-
-// let level4 = document.getElementById("level4");
-//     level4.addEventListener('click', function(){
-//     level4.classList.add('levelSelected');
-//     level1.classList.remove('levelSelected');
-//     level2.classList.remove('levelSelected');
-//     level3.classList.remove('levelSelected');
-//     difficultyLevel = 10;
-// })
-
-
+levelSelected();   
 
 //start game
 window.onload = function() {
     document.getElementById("start-button").onclick = function() {        
-        randomCards();         
+        randomCards(); 
     };
 }
 
