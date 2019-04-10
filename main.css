@@ -127,18 +127,35 @@ button{
 }
 
 
+@keyframes gameOverAnimation {
+     to{
+        transform: scale(1.1);
+    }
+}
 
+@keyframes winAnimation {
+    to{
+       transform: scale(1.1);
+   }
+}
 
 #game-over{
     position: absolute;
-    margin: 30px 10%;
+    margin: 100px 20%;
     border-radius: 25px;
+    animation-name: gameOverAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
+
 
 #win{
     position: absolute;
-    margin: 30px 10%;
+    margin: 100px 20%;
     border-radius: 25px;
+    animation-name: winAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 #container{

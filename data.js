@@ -385,15 +385,17 @@ function winGame(clichedTimeList){
             }
         }    
     if(count === datas.length){
-        console.log('You Win!');
+        myMusic.stop();
+        myWinMusic.play();
         document.getElementById('win').style.visibility = 'visible';        
     }else {
-        console.log('You lost!');
+        myMusic.stop();
+        myLoseMusic.play();
         document.getElementById('game-over').style.visibility = 'visible';
     }    
 }
 }
-
+3
 //choose level
 
 function levelSelected(){
@@ -417,7 +419,37 @@ levelSelected();
 window.onload = function() {
     document.getElementById("start-button").onclick = function() {        
         randomCards(); 
+        playMusic();
     };
+}
+
+
+// constructor music
+function sound(src) {
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    this.sound.setAttribute("preload", "auto");
+    this.sound.setAttribute("controls", "none");
+    this.sound.style.display = "none";
+    document.body.appendChild(this.sound);
+    this.play = function(){
+      this.sound.play();
+    }
+    this.stop = function(){
+      this.sound.pause();
+    }
+  } 
+
+//game music, lose effect sound and win effect sound
+let myMusic;
+let myWinMusic;
+let myLoseMusic;
+
+function playMusic() {  
+  myMusic = new sound("TOP QUIZ GAME SHOW - Thinking Music - Ratemusik.mp3");
+  myWinMusic = new sound('Street Fighter II-You Win Perfect.mp3');
+  myLoseMusic = new sound('./Mario die   sound effect.mp3');
+  myMusic.play();  
 }
 
 
