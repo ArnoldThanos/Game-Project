@@ -339,9 +339,10 @@ grid.addEventListener('click', function(event){
         return;
     }                
     let year = parseInt(clicked.getAttribute('data-year'),10);
-    yearsTimeList.push(year);           
+    yearsTimeList.push(year);   
+    console.log(yearsTimeList);    
     clicked.classList.add('selected');  
-    let div1st = document.getElementById('shuffle');    
+    let div1st = document.getElementById('shuffle');     
     div1st.appendChild(clicked);  
     clicked.innerHTML = "<span>" + clicked.getAttribute('data-year') + "</span>";      
     points(year, count);
@@ -349,6 +350,26 @@ grid.addEventListener('click', function(event){
     winGame(yearsTimeList);
     
 }); 
+
+let lives = 3;
+// add event when you click-back on a image
+shuffle.addEventListener('click', function(event){
+    clicked = event.target; 
+    console.log(clicked.parentNode.id)
+    if(clicked.parentNode.id === 'container'){
+        return;
+    }      
+    yearsTimeList.pop();
+    console.log(yearsTimeList);  
+    clicked.classList.remove('selected2');
+    let div2st = document.getElementsByClassName('grid')[0];
+    div2st.appendChild(clicked);
+    clicked.innerHTML = '';
+    count -=1;  
+    lives -=1;
+    winGame(yearsTimeList, lives);    
+}); 
+
 
 // function that increase or decrease game points
 function points(number, count){
@@ -358,10 +379,7 @@ function points(number, count){
         
         console.log(gamePoints);
     }else {
-        clicked.classList.add('selected2');
-        // if(gamePoints !== 0){
-        //     gamePoints -=10;
-        // }
+        clicked.classList.add('selected2');       
     }
     tablePoints.innerHTML = gamePoints;
 
@@ -372,7 +390,12 @@ document.getElementById('game-over').style.visibility = 'hidden';
 document.getElementById('win').style.visibility = 'hidden';
 
 // funtion to check if you win or lose
-function winGame(clichedTimeList){
+function winGame(clichedTimeList,n){
+    if(n === 0){
+        myMusic.stop();
+        myLoseMusic.play();
+        document.getElementById('game-over').style.visibility = 'visible';
+    }
     let b = Array.from(datas);
     let a = Array.from(clichedTimeList);
     let count = 0;
