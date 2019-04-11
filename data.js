@@ -3,296 +3,243 @@ const gameCards =[
     {
         name : 'TheOregonTrial',
         image : './images2/theOregonTrail.jpg',
-        year : 1971,
-        
-    
+        year : 1971
     },
     {
         name : 'pong',
         image : './images2/pong.jpg',
-        year : 1972, 
-    
+        year : 1972    
     },
     {
         name : 'SpaceRace',
         image : './images2/spaceRace.jpg',
-        year : 1973, 
-    
+        year : 1973     
     },
     {
         name : 'MazeWar',
         image : './images2/mazeWar.jpg',
-        year : 1974, 
-    
+        year : 1974   
     },
     {
         name : 'GunFight',
         image : './images2/gunfight.jpg',
-        year : 1975, 
-    
+        year : 1975     
     },
     {
         name : 'Breakout',
         image : './images2/breakout.jpg',
-        year : 1976, 
-    
+        year : 1976     
     },
     {
         name : 'Zork',
         image : './images2/zork.jpg',
-        year : 1977, 
-    
+        year : 1977     
     },
     {
         name : 'SpaceInvaders',
         image : './images2/spaceInvaders.jpg',
-        year : 1978, 
-    
+        year : 1978     
     },
     {
         name : 'Asteroids',
         image : './images2/asteroids.jpg',
-        year : 1979, 
-    
+        year : 1979     
     },
     {
         name : 'Pac-man',
         image : './images2/pacman.jpeg',
-        year : 1980, 
-    
+        year : 1980     
     },
     {
         name : 'DonkeyKong',
         image : './images2/donkeykong.jpg',
-        year : 1981, 
-    
+        year : 1981     
     },
     {
         name : 'Pitfall',
         image : './images2/pitfall.jpg',
-        year : 1982, 
-    
+        year : 1982     
     },
     {
         name : 'Dragons lair',
         image : './images2/dragonsLiar.jpg',
-        year : 1983, 
-    
+        year : 1983     
     },
     {
         name : 'Tetris',
         image : './images2/tetris.jpg',
-        year : 1984, 
-    
+        year : 1984     
     },
     {
         name : 'SuperMarioBros',
         image : './images2/supermariobros.jpg',
-        year : 1985, 
-    
+        year : 1985     
     },
     {
         name : 'TheLegendOfZelda',
         image : './images2/legendofzelda.jpg',
-        year : 1986, 
-    
+        year : 1986     
     },
     {
         name : 'FinalFantasy',
         image : './images2/finalfantasy.jpg',
-        year : 1987, 
-    
+        year : 1987    
     },
     {
         name : 'SuperMarioBros3',
         image : './images2/supermariobros3.jpg',
-        year : 1988, 
-    
+        year : 1988     
     },
     {
         name : 'SimCity',
         image : './images2/simcity.jpg',
-        year : 1989, 
-    
+        year : 1989     
     },
     {
         name : 'SuperMarioWorld',
         image : './images2/supermarioworld.jpeg',
-        year : 1990, 
-    
+        year : 1990     
     },
     {
         name : 'SonicTheHedgehog',
         image : './images2/sonic.jpg',
-        year : 1991, 
-    
+        year : 1991    
     },
     {
         name : 'MortalKombat',
         image : './images2/mortalkombat.png',
-        year : 1992, 
-    
+        year : 1992     
     },
     {
         name : 'DOOM',
         image : './images2/doom.jpg',
-        year : 1993, 
-    
+        year : 1993     
     },
     {
         name : 'DonkeyKongCountry',
         image : './images2/dkcountry.png.jpg',
-        year : 1994, 
-    
+        year : 1994     
     },
     {
         name : 'ChronoTrigger',
         image : './images2/chronotrigger.png',
-        year : 1995, 
-    
+        year : 1995     
     },
     {
         name : 'PokemonRedandBlue',
         image : './images2/pokemon.png',
-        year : 1996, 
-    
+        year : 1996     
     },
     {
         name : 'FinalFantasy7',
         image : './images2/finalFantasy7.jpg',
-        year : 1997, 
-    
+        year : 1997     
     },
     {
         name : 'TheLegendOfZelda:OcarinaOfTime',
         image : './images2/zeldaOcarinaOfTime.jpg',
-        year : 1998, 
-    
+        year : 1998    
     },
     {
         name : 'SuperSmashBros',
         image : './images2/superSmashBros.jpg',
-        year : 1999, 
-    
+        year : 1999     
     },
     {
         name : 'TheSims',
         image : './images2/thesims.jpg',
-        year : 2000, 
-    
+        year : 2000     
     },
     {
         name : 'HALO',
         image : './images2/halo.jpg',
-        year : 2001, 
-    
+        year : 2001     
     },
     {
         name : 'MetroidPrime',
         image : './images2/metroidprime.jpg',
-        year : 2002, 
-    
+        year : 2002     
     },
     {
         name : 'StarWars:KnightsofTheOldRepublic',
         image : './images2/starWarsKnightsofTheOldRepublic.jpg',
-        year : 2003, 
-    
+        year : 2003     
     },
     {
         name : 'Half-life2',
         image : './images2/halflife2.jpg',
-        year : 2004, 
-    
+        year : 2004    
     },
     {
         name : 'ResidentEvil4',
         image : './images2/residentevil4.jpg',
-        year : 2005, 
-    
+        year : 2005     
     },
     {
         name : 'GearsOfWar',
         image : './images2/gearsOfWar.jpg',
-        year : 2006, 
-    
+        year : 2006     
     },
     {
         name : 'BioShock',
         image : './images2/bioshock.png',
-        year : 2007, 
-    
+        year : 2007     
     },
     {
         name : 'Fallout3',
         image : './images2/fallout3.jpg',
-        year : 2008, 
-    
+        year : 2008     
     },
     {
         name : 'Uncharted2:AmongThieves',
         image : './images2/uncharted2.jpg',
-        year : 2009, 
-    
+        year : 2009     
     },
     {
         name : 'RedDeadRedemtion',
         image : './images2/reddeadredemption.jpg',
-        year : 2010, 
-    
+        year : 2010     
     },
     {
         name : 'TheelderScrollsV:Skyrim',
         image : './images2/elderscrolls.png',
-        year : 2011, 
-    
+        year : 2011     
     },
     {
         name : 'Journey',
         image : './images2/journey.png',
-        year : 2012, 
-    
+        year : 2012     
     },
     {
         name : 'GrandThefAutoV',
         image : './images2/grandtheft5.jpeg',
-        year : 2013, 
-    
+        year : 2013     
     },
     {
         name : 'BAyonetta2',
         image : './images2/bayonetta2.png',
-        year : 2014, 
-    
+        year : 2014     
     },
     {
         name : 'Bloodborne',
         image : './images2/bloodborne.png',
-        year : 2015, 
-    
+        year : 2015     
     },
     {
         name : 'Overwatch',
         image : './images2/Overwatch.jpg',
-        year : 2016, 
-    
+        year : 2016     
     },
     {
         name : 'TheLegendOfZelda:BreathOfTheWild',
         image : './images2/breatheofthewild.png',
-        year : 2017, 
-    
+        year : 2017     
     },
     {
         name : 'IntoTheBreach',
         image : './images2/itb-large-final.jpg',
-        year : 2018, 
-    
-    }
-    ] 
-    console.log(gameCards.length)
-    
-    
+        year : 2018     
+    }]    
     // take the div
     const game = document.getElementById('timeLine');
     // section created with a grid class
@@ -306,9 +253,9 @@ const gameCards =[
     //points at the bigining of the game
     let gamePoints = 0;
     //difficulty level
-    let difficultyLevel = 0;
-    
-    
+    let difficultyLevel = 0;  
+    //starting the game with number of lives
+    let lives = 3;
     // put random cards from our array of cards
     function randomCards(){
         let newArr = Array.from(gameCards);      
@@ -321,8 +268,8 @@ const gameCards =[
             card.style.backgroundImage = `url(${newArr[index].image})`;
             grid.appendChild(card);          
             datas.push(newArr[index].year);
-            newArr.splice(index,1);
-           
+            newArr.splice(index,1);   
+
         }        
         return datas;
     }
@@ -331,8 +278,7 @@ const gameCards =[
     // counter of game points
     let count = 0;
     // initialization of the clicked card
-    let clicked;
-    
+    let clicked;    
     // add event when you click on a image
     grid.addEventListener('click', function(event){
         clicked = event.target; 
@@ -343,16 +289,18 @@ const gameCards =[
         yearsTimeList.push(year);   
         console.log(yearsTimeList);    
         clicked.classList.add('selected');  
+        points(year, count);
+        count += 1;    
+        winGame(yearsTimeList);        
+        if(clicked.classList.contains('selected') && !clicked.classList.contains('selected2')){
+            rightAnswer.play();
+        }else {
+            wrongAnswer.play();  
+        }
         let div1st = document.getElementById('shuffle');     
         div1st.appendChild(clicked);  
         clicked.innerHTML = "<span>" + clicked.getAttribute('data-year') + "</span>";      
-        points(year, count);
-        count += 1;    
-        winGame(yearsTimeList);
-        
-    }); 
-    
-    let lives = 3;
+    });       
     // add event when you click-back on a image
     shuffle.addEventListener('click', function(event){
         clicked = event.target; 
@@ -362,49 +310,42 @@ const gameCards =[
         }      
         yearsTimeList.pop();
         console.log(yearsTimeList);  
-        clicked.classList.remove('selected2');
+        clicked.classList.remove('selected2');        
         let div2st = document.getElementsByClassName('grid')[0];
         div2st.appendChild(clicked);
         clicked.innerHTML = '';
         count -=1;  
-        lives -=1;
+        lives -=1;               
         leftLives(lives);
         winGame(yearsTimeList, lives);    
     }); 
-
     //delete heart when you lose a live
     function leftLives(n){
         switch(n){
             case 2:
-            document.getElementById('heart1').style.visibility = 'hidden';
+            document.getElementById('heart1').style.visibility = 'hidden';            
             break;
             case 1:
-            document.getElementById('heart2').style.visibility = 'hidden';
+            document.getElementById('heart2').style.visibility = 'hidden';           
             break;
             case 0:
             document.getElementById('heart3').style.visibility = 'hidden';
             break;        
         }
-    }
-    
+    }    
     // function that increase or decrease game points
     function points(number, count){
         let tablePoints = document.getElementById('points')
         if(datas.sort()[count] === number){
             gamePoints +=10;
-            
-            console.log(gamePoints);
         }else {
-            clicked.classList.add('selected2');       
+            clicked.classList.add('selected2');                 
         }
-        tablePoints.innerHTML = gamePoints;
-    
-    }
-    
+        tablePoints.innerHTML = gamePoints;    
+    }    
     //images of win and lose
     document.getElementById('game-over').style.visibility = 'hidden';
-    document.getElementById('win').style.visibility = 'hidden';
-    
+    document.getElementById('win').style.visibility = 'hidden';    
     // funtion to check if you win or lose
     function winGame(clichedTimeList,n){
         if(n === 0){
@@ -437,9 +378,7 @@ const gameCards =[
         }    
     }
     }
-    3
-    //choose level
-    
+    //choose level    
     function levelSelected(){
         let buttonSelected = document.querySelectorAll('.level');
         buttonSelected.forEach((e, index)  =>{
@@ -453,10 +392,8 @@ const gameCards =[
                 difficultyLevel = index <= 0 ? 4 : (index + 2) * 2;
             })
         })
-    }
-    
-    levelSelected();   
-    
+    }    
+    levelSelected();      
     //start game
     window.onload = function() {
         document.getElementById("start-button").onclick = function() {        
@@ -464,8 +401,6 @@ const gameCards =[
             playMusic();
         };
     }
-    
-    
     // constructor music
     function sound(src) {
         this.sound = document.createElement("audio");
@@ -480,19 +415,21 @@ const gameCards =[
         this.stop = function(){
           this.sound.pause();
         }
-      } 
-    
+      }     
     //game music, lose effect sound and win effect sound
     let myMusic;
     let myWinMusic;
     let myWinPerfectMusic;
     let myLoseMusic;
-    
+    let wrongAnswer;
+    let rightAnswer;
     function playMusic() {  
       myMusic = new sound("./sounds/TOP QUIZ GAME SHOW - Thinking Music - Ratemusik.mp3");
       myWinMusic = new sound('./sounds/tStreet Fighter II-You Win.mp3');
       myWinPerfectMusic = new sound('./sounds/Street Fighter II-You Win Perfect.mp3')
       myLoseMusic = new sound('./sounds/Mario die   sound effect.mp3');
+      wrongAnswer = new sound('./sounds/WrongFail Buzzer Sound Effect.mp3');
+      rightAnswer = new sound('./sounds/right answer sound effect.mp3');
       myMusic.play();  
     }
     

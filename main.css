@@ -50,14 +50,18 @@ button{
     }
 
 #scoreImage {
+    
     margin: 0 auto;
     width: 400px;
+    
 }
 
 #scoreImage > img {
-    margin-left: 25px; 
+    margin : 0 auto;
+    display: flex;
     margin-bottom: 10px;  
     background-color: black; 
+    
 }
 
 #timeLine{
@@ -179,16 +183,16 @@ button{
     /* background-repeat: no-repeat; */
     display: flex;    
     width: 80%;;
-    border : 15px ridge green;
+    border : 7px ridge green;
     flex-wrap: wrap;    
     justify-content: center;
 }
 
 #shuffle > div{    
-    border-radius: 40px;
+    border-radius: 23px;
     /* border : 10px ridge greenyellow; */
     height: 170px;
-    width: 140px;    
+    width: 120px;    
     text-align: center;
 }
 
@@ -202,17 +206,6 @@ button{
     
 }
 
-.card{
-    margin: 5px;
-    background-color:white;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 350px;
-    width: 200px;
-}
-
-
 .grid > div {
     border-radius: 23px;
     width: 110px;
@@ -220,6 +213,16 @@ button{
     border : 7px solid red;
 
 }
+
+.card{
+    margin: 5px;
+    background-color:white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
 
 .selected {
     
@@ -244,7 +247,7 @@ button{
     text-align: center;
     font-size: 35px;
     border : 10px ridge red;
-    color: red;    
+    color: red;      
 }
 
 
