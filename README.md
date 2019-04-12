@@ -2,7 +2,7 @@
 
 # Time-line: GAMES
 
-<p align="center"><img src="./images/time-line:games.png" width = "400" height="200"></p>
+<p align="center"><img src="./images/time-line:games.png" width = "600" height="400"></p>
 
 Time line: GAMES is a card game played using 48 cards. Each card depicts a GAME on both sides, in one side it's the year when that game won "the best game of the year". 
 
