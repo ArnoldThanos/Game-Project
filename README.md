@@ -46,6 +46,14 @@ The game is also on GitHub Pages : [time-line:games](https://arnoldthanos.github
 -Add 2 players game modality.
 
 
+Included Arcanist Plugins
+-------------------------
+
+Currently, this module contains three arcanist plugins:
+* tap
+* [uber-standard][uber-standard]
+* [lint-trap][lint-trap] (deprecated)
+
 
 
 
