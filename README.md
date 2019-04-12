@@ -23,7 +23,7 @@ You win each level of the game when you put all the cards in correct order.
 
 Click on the card you want to put on the board, if it's in the correct place it'll has a green border and if it's wrong will has a red border. You can click again on the wrong card, but you will lose a live( you only have 3).
 
-Used technologies:
+### Used technologies:
 -------------------------
 
 * Javascript
@@ -31,7 +31,8 @@ Used technologies:
 * CSS
 
 
-## Installation instructions:
+### Installation instructions:
+------------------------------
 
 You can view my project in your browser:
 
@@ -42,7 +43,8 @@ Then click on the index.html file and open it in your browser. Have fun!!
 
 The game is also on GitHub Pages : [time-line:games](https://arnoldthanos.github.io/Game-Project/)
 
-## Unsolved problems:
+### Unsolved problems:
+-------------------------
 
 -The game needs more cards effects as drag the card to the correct place on the board.
 -Go from level 1 to 4 adding the points.
