@@ -22,9 +22,9 @@ Click on the card you want to put on the board, if it's in the correct place it'
 
 ## Used technologies:
 
-*Javascript
-*HTML
-*CSS
+ -Javascript
+ -HTML
+ -CSS
 
 
 ## Installation instructions:
