@@ -425,6 +425,7 @@ const gameCards =[
     let rightAnswer;
     function playMusic() {  
       myMusic = new sound("./sounds/TOP QUIZ GAME SHOW - Thinking Music - Ratemusik.mp3");
+      myMusic.loop = true;
       myWinMusic = new sound('./sounds/tStreet Fighter II-You Win.mp3');
       myWinPerfectMusic = new sound('./sounds/Street Fighter II-You Win Perfect.mp3')
       myLoseMusic = new sound('./sounds/Mario die   sound effect.mp3');

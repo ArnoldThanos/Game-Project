@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after{
+*{
     box-sizing: border-box;
 }
 
@@ -14,9 +12,9 @@ body{
 
 aside{
     background-image: url('images/pointsBackgground.jpg');
-    background-size: 350px;
+    background-size: 370px;
     display: flex;
-    border : 15px ridge blue;
+    border : 8px ridge blue;
     justify-content: flex-end;
     width: 20%;
     height: 390px;
@@ -45,9 +43,23 @@ button{
     top: 38%;
     right: 10%;
 }
-    ul{
+ul{
         margin: 0 auto;
-    }
+}
+
+#titleGame{
+    display: flex;  
+    margin: 0 auto;
+}
+
+#titleGame > h1{
+    color: blue;
+    font-size: 30px;
+    font-family: monospace; 
+    border: 8px ridge green;
+    background-color: white;
+    margin: 5px 5px 5px 0;
+}
 
 #scoreImage {
     
