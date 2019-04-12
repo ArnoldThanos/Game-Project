@@ -46,10 +46,10 @@ The game is also on GitHub Pages : [time-line:games](https://arnoldthanos.github
 ### Unsolved problems:
 -------------------------
 
--The game needs more cards effects as drag the card to the correct place on the board.
--Go from level 1 to 4 adding the points.
--Put a card before or between cards that are already in the correct time-line place.
--Add 2 players game modality.
+* The game needs more cards effects as drag the card to the correct place on the board.
+* Go from level 1 to 4 adding the points.
+* Put a card before or between cards that are already in the correct time-line place.
+* Add 2 players game modality.
 
 
 
