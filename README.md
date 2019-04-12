@@ -2,9 +2,9 @@
 
 # Time-line: GAMES
 
-<p align="center"><img src="./images/time-line:games.png"></p>
+<p align="center"><img src="./images/time-line:games.png" width = "400" height="200"></p>
 
-Time line: GAMES is a card game played using 48 cards. Each card depicts a GAME on both sides, with the year in which that game won best game of the that year on only one side. 
+Time line: GAMES is a card game played using 48 cards. Each card depicts a GAME on both sides, in one side it's the year when that game won "the best game of the year". 
 
 ## Developer
 
@@ -18,7 +18,7 @@ The player must place the cards in ascending order from least to greatest accord
 
 You win each level of the game when you put all the cards in correct order.
 
-Click on the card you want to put on the board, if it is in the correct place it will has a green border and if it's wrong will has a red border. You can click again on the wrong card, but you will lose a live( you only have 3).
+Click on the card you want to put on the board, if it's in the correct place it'll has a green border and if it's wrong will has a red border. You can click again on the wrong card, but you will lose a live( you only have 3).
 
 ## Used technologies:
 
